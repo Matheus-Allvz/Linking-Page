@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matheus_Allvz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Matheus Alves fazendo cara seria e fardado"
+        />
+        <p>@Matheus_Allvz</p>
+      </div>
+      <div id="switch" onclick="tooggleMode()">
+        <button></button>
+        <span> </span>
+      </div>
+
+      <ul>
+        <!--
+          <ul></ul> = unsorted list, uma lista sem ordenação (números antes do objeto)
+
+          <ol></ol> =  ordened list, uma lista ordenada (com númeração antes dos objetos)
+      -->
+        <li>
+          <!--
+          <a href="#">TEXTO DO BOTÃO</a>
+          "#" = URL para onde o botão deve direcionar o USER;
+
+          (target="_blank) sendo usado dentro de <a___> serve para que o link do botão seja aberto em uma nova guia.
+        -->
+          <a href="#" target="_blank">Botãozinho 1</a>
+        </li>
+
+        <li>
+          <a href="#" target="_blank">Botãozinho 2</a>
+        </li>
+
+        <li>
+          <a href="#" target="_blank">Botãozinho 3</a>
+        </li>
+
+        <li>
+          <a href="#" target="_blank">Botãozinho 4</a>
+        </li>
+      </ul>
+
+      <div id="social-links">
+        <a href="https://github.com/Matheus-Allvz" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/matheus_allvz/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="#" target="_self">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a href="#" target="_self">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Feito com ♥ por
+        <a href="https://www.instagram.com/matheus_allvz/" target="_blank"
+          >Matheus_Allvz</a
+        >
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
