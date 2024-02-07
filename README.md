@@ -1,12 +1,12 @@
-
 # Linking Page
 
 Uma página de redirecionamento de links com dois modos de visualização: 
 Dark e Light.
 
-O modo Dark usa de um background escuro e a coloração e transparência dos botões escuros para compor a estetica da página.
+O modo Dark usa de um background e cores escuras pra compor o design.
+Já no modo Light as cores e o background que compoem o design são leves e claras.
 
-Já no modo Light as cores são leves e claras.
+Url de acesso: https://matheus-allvz.github.io/Linking-Page/
 ## Autores
 
 - [@rocketseat](https://app.rocketseat.com.br/)
