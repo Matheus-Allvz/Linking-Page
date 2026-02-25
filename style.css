@@ -29,7 +29,8 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  height: 100vh;
+  height: 100dvh;
+  overflow-y: hidden;
   /*
    em "background: url(...)" as variaveis servem para:
     'no-repeat' = para que o background não se repita de forma indefinida até cobrir a página
