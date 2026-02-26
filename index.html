@@ -1,64 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="./assets/logotype.png" type="image/x-icon" />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matheus Alves</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="container">
-      <div id="profile">
-        <img
-          src="./assets/avatar.png"
-          alt="Foto de Matheus Alves fazendo cara seria e fardado"
-        />
-        <p>@Matheus_Allvz</p>
-      </div>
-      <div id="switch" onclick="tooggleMode()">
-        <button></button>
-        <span> </span>
-      </div>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="icon" href="./assets/logotype.png" type="image/x-icon" />
 
-      <ul>
-        <!--
+  <link rel="preload" as="image" href="./assets/bg-mobile.jpg" media="(max-width: 767px)">
+
+  <link rel="preload" as="image" href="./assets/bg-desktop.jpg" media="(min-width: 768px)">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheus Alves</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="container">
+    <div id="profile">
+      <img src="./assets/avatar.png" alt="Foto de Matheus Alves fazendo cara seria e fardado" />
+      <p>@Matheus_Allvz</p>
+    </div>
+    <div id="switch" onclick="tooggleMode()">
+      <button></button>
+      <span> </span>
+    </div>
+
+    <ul>
+      <!--
           <ul></ul> = unsorted list, uma lista sem ordenação (números antes do objeto)
 
           <ol></ol> =  ordened list, uma lista ordenada (com númeração antes dos objetos)
       -->
-        <li>
-          <!--
+      <li>
+        <!--
           <a href="#">TEXTO DO BOTÃO</a>
           "#" = URL para onde o botão deve direcionar o USER;
 
           (target="_blank) sendo usado dentro de <a___> serve para que o link do botão seja aberto em uma nova guia.
         -->
-          <a href="https://wa.me/qr/7TFADYMRDFGNH1" target="_blank"
-            >Fale comigo no WhatsApp</a
-          >
-        </li>
+        <a href="https://wa.me/qr/7TFADYMRDFGNH1" target="_blank">Fale comigo no WhatsApp</a>
+      </li>
 
-        <li>
-          <a href="https://github.com/Matheus-Allvz" target="_blank"
-            >Conheça meu GitHub</a
-          >
-          <!-- Mudanças executadas nos links da página, conferir funcionamento prático. -->
-        </li>
+      <li>
+        <a href="https://github.com/Matheus-Allvz" target="_blank">Conheça meu GitHub</a>
+        <!-- Mudanças executadas nos links da página, conferir funcionamento prático. -->
+      </li>
 
-        <li>
-          <a href="https://matheus-allvz.github.io/home/" target="_blank"
-            >Veja meu Portfólio</a
-          >
+      <li>
+        <a href="https://matheus-allvz.github.io/home/" target="_blank">Veja meu Portfólio</a>
 
-          <!-- 
+        <!-- 
             
               dasad
 
@@ -67,52 +61,40 @@
             href="https://matheus-allvz.github.io/home/#fh5co-work"
             target="_blank"
             > -->
-        </li>
+      </li>
 
-        <li>
-          <a href="https://matheus-allvz.github.io/home/" target="_blank"
-            >Mais Informações</a
-          >
-          <!-- Mudanças executadas nos links da página, conferir funcionamento prático. -->
-        </li>
-      </ul>
+      <li>
+        <a href="https://matheus-allvz.github.io/home/" target="_blank">Mais Informações</a>
+        <!-- Mudanças executadas nos links da página, conferir funcionamento prático. -->
+      </li>
+    </ul>
 
-      <div id="social-links">
-        <a href="https://github.com/Matheus-Allvz" target="_blank">
-          <ion-icon name="logo-github"></ion-icon>
-        </a>
-        <a href="https://www.instagram.com/matheus_allvz/" target="_blank">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-        <a href="https://www.youtube.com/@Matheus-Allvz" target="_blank">
-          <ion-icon name="logo-youtube"></ion-icon>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/matheus-alves-a862a12a8/"
-          target="_blank"
-        >
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a>
-      </div>
-      <footer>
-        Feito com ♥ por
-        <a href="https://www.instagram.com/matheus_allvz/" target="_blank"
-          >Matheus_Allvz</a
-        >
-      </footer>
+    <div id="social-links">
+      <a href="https://github.com/Matheus-Allvz" target="_blank">
+        <ion-icon name="logo-github"></ion-icon>
+      </a>
+      <a href="https://www.instagram.com/matheus_allvz/" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+      </a>
+      <a href="https://www.youtube.com/@Matheus-Allvz" target="_blank">
+        <ion-icon name="logo-youtube"></ion-icon>
+      </a>
+      <a href="https://www.linkedin.com/in/matheus-alves-a862a12a8/" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+      </a>
     </div>
+    <footer>
+      Feito com ♥ por
+      <a href="https://www.instagram.com/matheus_allvz/" target="_blank">Matheus_Allvz</a>
+    </footer>
+  </div>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
-    <script src="./script.js"></script>
-  </body>
+  <script src="./script.js"></script>
+</body>
+
 </html>
 
 <!-- Mudanças executadas nos links da página, conferir funcionamento prático. -->
